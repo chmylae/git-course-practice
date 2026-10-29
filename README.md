@@ -1,55 +1,35 @@
 # Dias — начинающий разработчик
 
-Небольшое адаптивное портфолио, созданное как практический проект к урокам 16–25 курса «Git и GitHub для начинающих» ITDoctor.
+Небольшое адаптивное портфолио и учебный репозиторий к урокам 16–25 курса «Git и GitHub для начинающих» ITDoctor.
 
-## Просмотр
+## Результаты
 
-Откройте `index.html` в браузере. Для публикации включите GitHub Pages в настройках репозитория: **Settings → Pages → Deploy from a branch → main → /(root)**.
+- **Сайт-портфолио:** [chmylae.github.io/git-course-practice](https://chmylae.github.io/git-course-practice/)
+- **GitHub репозиторий:** [chmylae/git-course-practice](https://github.com/chmylae/git-course-practice)
+- **Профиль GitHub:** [chmylae](https://github.com/chmylae) с README-профилем
+- **Пример Gist:** [hello-git.js](https://gist.github.com/chmylae/b271872a39a7cca6e36893a97254940a)
 
 ## Что внутри
 
-- `index.html`, `styles.css`, `script.js` — сайт-портфолио;
-- `.gitignore` — исключения для локальных и временных файлов;
-- `.vscode/extensions.json` — рекомендация расширения для Markdown;
-- `snippets/` — пример текста для Gist;
-- `.github/CONTRIBUTING.md` — правила вклада через Fork и Pull Request.
+- `index.html`, `styles.css`, `script.js` — адаптивный сайт;
+- `.gitignore` — правила исключения временных файлов и секретов;
+- `.vscode/extensions.json` — рекомендация Markdown All in One;
+- `snippets/hello-git.js` — пример для Gist;
+- `.github/CONTRIBUTING.md` — шаги для Fork и Pull Request;
+- `PROFILE-README.md` — копия текста профиля.
 
-## Практика Git (уроки 16–25)
+## Практика по урокам 16–25
 
-1. Слияние: ветка `feature/portfolio-content` добавлена и слита в `main`.
-2. Markdown: этот README и `CONTRIBUTING.md`.
-3. Настройки редактора: проект рекомендует Markdown All in One; персональную синхронизацию включайте в VS Code через Settings Sync.
-4. Gist: загрузите `snippets/hello-git.js` как отдельный публичный или секретный Gist.
-5. GitHub Pages: после отправки репозитория включите Pages по инструкции выше.
-6. Профиль: скопируйте блок из раздела ниже в репозиторий GitHub с именем вашего пользователя.
-7. Fork/PR: отправьте изменение текста или проекта через Fork и Pull Request.
-8. Игнорирование: `.gitignore` исключает `.env`, `node_modules/`, системные файлы и локальные настройки редактора.
+1. **Слияние веток:** `feature/portfolio-content` слита в `main`.
+2. **Markdown и README:** документация оформлена в Markdown.
+3. **Настройки редактора:** добавлена рекомендация расширения; личную синхронизацию VS Code можно включить через Settings Sync.
+4. **Gist:** опубликован [hello-git.js](https://gist.github.com/chmylae/b271872a39a7cca6e36893a97254940a).
+5. **GitHub Pages:** сайт опубликован по ссылке вверху.
+6. **Профиль автора:** [README профиля](https://github.com/chmylae/chmylae).
+7. **Fork и Pull Request:** инструкция для вклада находится в `.github/CONTRIBUTING.md`.
+8. **Исключение файлов:** `.gitignore` игнорирует `.env`, `node_modules/`, логи и локальные настройки IDE.
+9. **Итоги:** репозиторий, сайт, Gist и профиль связаны между собой.
 
-## Команды публикации
+## Локальный просмотр
 
-Создайте пустой репозиторий на GitHub, затем выполните в этой папке:
-
-```bash
-git remote add origin https://github.com/ВАШ-ЛОГИН/git-course-practice.git
-git push -u origin main
-```
-
-## README профиля GitHub
-
-Создайте публичный репозиторий с точным именем вашего логина и добавьте в его README:
-
-```md
-# Привет! Я Dias 👋
-
-Изучаю веб-разработку и Git. Здесь собираю учебные проекты и заметки.
-
-- 🌱 Сейчас изучаю HTML, CSS, JavaScript и GitHub
-- 📫 Контакт: укажите свою почту или ссылку на профиль
-```
-
-> Перед публикацией замените имя, контакты и ссылки-заглушки на свои.
-## Следующие шаги
-
-- Добавить новые работы в раздел «Проекты».
-- Поменять адрес GitHub и контактные данные на свои.
-- Развивать сайт небольшими изменениями в отдельных ветках.
+Откройте `index.html` в браузере. Внесите свои изменения в тексты и ссылки перед использованием портфолио как личной визитки.
