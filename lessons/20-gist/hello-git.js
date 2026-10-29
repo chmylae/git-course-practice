@@ -1,6 +1,4 @@
-// Пример для Gist: короткая функция форматирования сообщения.
-function greeting(name) {
-  return `Привет, ${name}! Изучаем Git и GitHub.`;
-}
+// Пример для Gist — список тем, которые разбираются в курсе.
+const topics = ["Git", "GitHub", "Markdown", "Pages"];
 
-console.log(greeting("Dias"));
+console.log(`Изучаю: ${topics.join(", ")}`);

@@ -9,7 +9,7 @@
 - [18 — синтаксис Markdown](lessons/18-markdown/README.md)
 - [19 — настройки и рекомендации VS Code](lessons/19-settings-sync/README.md)
 - [20 — Gist](lessons/20-gist/README.md)
-- [21 — мини-сайт для Pages](lessons/21-pages/README.md)
+- [21 — мини-сайт для Pages](lessons/21-pages/README.md) ([открыть сайт](https://chmylae.github.io/git-course-practice/lessons/21-pages/))
 - [22 — README профиля](lessons/22-profile/README.md)
 - [23 — Fork и Pull Request](lessons/23-fork-pull-request/README.md)
 - [24 — `.gitignore`](lessons/24-gitignore/README.md)
@@ -30,3 +30,4 @@ git log --oneline --graph --decorate --all
 - [Профиль](https://github.com/chmylae)
 - [Gist](https://gist.github.com/chmylae/b271872a39a7cca6e36893a97254940a)
 - [Pull Request №1](https://github.com/chmylae/git-course-practice/pull/1)
+
