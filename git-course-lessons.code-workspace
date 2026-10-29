@@ -1,0 +1,39 @@
+{
+  "folders": [
+    {
+      "path": "lessons/16-merge"
+    },
+    {
+      "path": "lessons/17-readme"
+    },
+    {
+      "path": "lessons/18-markdown"
+    },
+    {
+      "path": "lessons/19-settings-sync"
+    },
+    {
+      "path": "lessons/20-gist"
+    },
+    {
+      "path": "lessons/21-pages"
+    },
+    {
+      "path": "lessons/22-profile"
+    },
+    {
+      "path": "lessons/23-fork-pull-request"
+    },
+    {
+      "path": "lessons/24-gitignore"
+    },
+    {
+      "path": "lessons/25-summary"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

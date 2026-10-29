@@ -1,35 +1,32 @@
-# Dias — начинающий разработчик
+# Git и GitHub — практикум по урокам 16–25
 
-Небольшое адаптивное портфолио и учебный репозиторий к урокам 16–25 курса «Git и GitHub для начинающих» ITDoctor.
+Это рабочая область из **10 отдельных папок/мини-проектов**, а не один общий сайт вместо всех упражнений. Откройте `git-course-lessons.code-workspace` в VS Code: каждая папка урока появится отдельно.
 
-## Результаты
+## Папки уроков
 
-- **Сайт-портфолио:** [chmylae.github.io/git-course-practice](https://chmylae.github.io/git-course-practice/)
-- **GitHub репозиторий:** [chmylae/git-course-practice](https://github.com/chmylae/git-course-practice)
-- **Профиль GitHub:** [chmylae](https://github.com/chmylae) с README-профилем
-- **Пример Gist:** [hello-git.js](https://gist.github.com/chmylae/b271872a39a7cca6e36893a97254940a)
+- [16 — ветки, fix и разрешение конфликта](lessons/16-merge/README.md)
+- [17 — отдельный README-проект](lessons/17-readme/README.md)
+- [18 — синтаксис Markdown](lessons/18-markdown/README.md)
+- [19 — настройки и рекомендации VS Code](lessons/19-settings-sync/README.md)
+- [20 — Gist](lessons/20-gist/README.md)
+- [21 — мини-сайт для Pages](lessons/21-pages/README.md)
+- [22 — README профиля](lessons/22-profile/README.md)
+- [23 — Fork и Pull Request](lessons/23-fork-pull-request/README.md)
+- [24 — `.gitignore`](lessons/24-gitignore/README.md)
+- [25 — итоги курса](lessons/25-summary/README.md)
 
-## Что внутри
+## Урок 16 в Git-истории
 
-- `index.html`, `styles.css`, `script.js` — адаптивный сайт;
-- `.gitignore` — правила исключения временных файлов и секретов;
-- `.vscode/extensions.json` — рекомендация Markdown All in One;
-- `snippets/hello-git.js` — пример для Gist;
-- `.github/CONTRIBUTING.md` — шаги для Fork и Pull Request;
-- `PROFILE-README.md` — копия текста профиля.
+На ветке `fix` исправлен подвал, а в `main` сделано другое изменение той же строки. Слияние вызвало настоящий конфликт; файл исправлен вручную, затем создан merge-коммит. Проверьте граф:
 
-## Практика по урокам 16–25
+```bash
+git log --oneline --graph --decorate --all
+```
 
-1. **Слияние веток:** `feature/portfolio-content` слита в `main`.
-2. **Markdown и README:** документация оформлена в Markdown.
-3. **Настройки редактора:** добавлена рекомендация расширения; личную синхронизацию VS Code можно включить через Settings Sync.
-4. **Gist:** опубликован [hello-git.js](https://gist.github.com/chmylae/b271872a39a7cca6e36893a97254940a).
-5. **GitHub Pages:** сайт опубликован по ссылке вверху.
-6. **Профиль автора:** [README профиля](https://github.com/chmylae/chmylae).
-7. **Fork и Pull Request:** инструкция для вклада находится в `.github/CONTRIBUTING.md`.
-8. **Исключение файлов:** `.gitignore` игнорирует `.env`, `node_modules/`, логи и локальные настройки IDE.
-9. **Итоги:** репозиторий, сайт, Gist и профиль связаны между собой.
+## Опубликованный портфолио-проект
 
-## Локальный просмотр
-
-Откройте `index.html` в браузере. Внесите свои изменения в тексты и ссылки перед использованием портфолио как личной визитки.
+- [Репозиторий](https://github.com/chmylae/git-course-practice)
+- [GitHub Pages](https://chmylae.github.io/git-course-practice/)
+- [Профиль](https://github.com/chmylae)
+- [Gist](https://gist.github.com/chmylae/b271872a39a7cca6e36893a97254940a)
+- [Pull Request №1](https://github.com/chmylae/git-course-practice/pull/1)
